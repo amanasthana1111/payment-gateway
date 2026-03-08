@@ -1,0 +1,32 @@
+{
+  "name": "payment_gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "api-gateway",
+    "auth-service",
+    "merchant-service",
+    "order-service",
+    "payment-service",
+    "checkout-service",
+    "webhook-service",
+    "notification-service",
+    "settlement-service",
+    "refund-service",
+    "fraud-service",
+    "routing-service",
+    "shared"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
